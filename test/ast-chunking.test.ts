@@ -15,7 +15,7 @@ import {
   mergeBreakPoints,
   scanBreakPoints,
   findCodeFences,
-} from "../src/store.js";
+} from "../src/store/index.js";
 
 // ==========================================================================
 // mergeBreakPoints

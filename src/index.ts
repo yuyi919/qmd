@@ -63,7 +63,7 @@ import {
   type EmbedProgress,
   type EmbedResult,
   type ChunkStrategy,
-} from "./store.js";
+} from "./store/index.js";
 import {
   LlamaCpp,
 } from "./llm.js";
@@ -111,10 +111,10 @@ export type { InternalStore };
 
 // Re-export utility functions and types used by frontends
 export { extractSnippet, addLineNumbers, DEFAULT_MULTI_GET_MAX_BYTES };
-export type { ChunkStrategy } from "./store.js";
+export type { ChunkStrategy } from "./store/index.js";
 
 // Re-export getDefaultDbPath for CLI/MCP that need the default database location
-export { getDefaultDbPath } from "./store.js";
+export { getDefaultDbPath } from "./store/index.js";
 
 // Re-export Maintenance class for CLI housekeeping operations
 export { Maintenance } from "./maintenance.js";
