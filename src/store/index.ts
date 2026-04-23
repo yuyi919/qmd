@@ -1,0 +1,22 @@
+export * from "./types/index.js";
+export * from "./core/constants.js";
+export * from "./core/db.js";
+export * from "./collection/crud.js";
+export * from "./collection/context.js";
+export * from "./search/hybrid.js";
+export * from "./search/structured.js";
+export * from "./search/fts.js";
+export * from "./search/vec.js";
+export * from "./search/document.js";
+export * from "./index/reindex.js";
+export * from "./index/embed.js";
+export * from "./index/health.js";
+export * from "./cache/index.js";
+export * from "./core/store.js";
+export * from "./utils/chunking.js";
+export * from "./utils/path.js";
+export * from "./utils/virtual-path.js";
+export * from "./utils/hash.js";
+export * from "./utils/snippet.js";
+
+export { formatQueryForEmbedding, formatDocForEmbedding } from "../llm.js";

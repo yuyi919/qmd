@@ -5,7 +5,7 @@
  * Takes an internal Store in the constructor — allowed to access DB directly.
  */
 
-import type { Store } from "./store.js";
+import type { Store } from "./store/index.js";
 import {
   vacuumDatabase,
   cleanupOrphanedContent,
@@ -13,7 +13,7 @@ import {
   deleteLLMCache,
   deleteInactiveDocuments,
   clearAllEmbeddings,
-} from "./store.js";
+} from "./store/index.js";
 
 export class Maintenance {
   private store: Store;

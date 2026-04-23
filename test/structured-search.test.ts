@@ -20,7 +20,7 @@ import {
   validateLexQuery,
   type ExpandedQuery,
   type Store,
-} from "../src/store.js";
+} from "../src/store/index.js";
 import { disposeDefaultLlamaCpp } from "../src/llm.js";
 
 // =============================================================================

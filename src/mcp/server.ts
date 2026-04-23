@@ -30,7 +30,7 @@ import {
   type IndexStatus,
 } from "../index.js";
 import { getConfigPath } from "../collections.js";
-import { enableProductionMode } from "../store.js";
+import { enableProductionMode } from "../store/index.js";
 
 enableProductionMode();
 

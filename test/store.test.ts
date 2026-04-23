@@ -53,7 +53,7 @@ import {
   type DocumentResult,
   type SearchResult,
   type RankedResult,
-} from "../src/store.js";
+} from "../src/store/index.js";
 import type { CollectionConfig } from "../src/collections.js";
 
 // =============================================================================

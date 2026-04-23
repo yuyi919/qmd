@@ -20,7 +20,7 @@
 
 import { createRequire } from "node:module";
 import { extname } from "node:path";
-import type { BreakPoint } from "./store.js";
+import type { BreakPoint } from "./store/index.js";
 
 // web-tree-sitter types — imported dynamically to avoid top-level WASM init
 type ParserType = import("web-tree-sitter").Parser;
